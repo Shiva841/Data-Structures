@@ -48,6 +48,11 @@ void Stack:: display(){
 		cout<<arr[i]<<" ";
 	}
 	cout<<endl;
+	//reverse
+	int copy = Top;
+	for(int i=copy;i>=0;i--){
+		cout<<arr[copy--]<<" ";
+	}
 	
 }
 
