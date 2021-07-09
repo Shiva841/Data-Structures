@@ -48,12 +48,7 @@ void Stack:: display(){
 		cout<<arr[i]<<" ";
 	}
 	cout<<endl;
-	//display in Reverse 
-	cout<<"Reverse:";
-	while(Top>-1){
-		cout<<arr[Top]<<" ";
-		Top --;
-	}
+	
 }
 
 
