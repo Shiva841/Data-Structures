@@ -126,7 +126,7 @@ int main(int argc, char *argv[])
 	      
 	 */
 	s.display();   // 1 2 3 
-						  //   3 2 1
+	      	      //  3 2 1
 	cout<<endl;
 	s.Push(8);   
 		/*
@@ -158,5 +158,5 @@ int main(int argc, char *argv[])
 	      
 	 */
 	s.display();  //1 2 3 8 7
-	   				   
+	   	     // 7 8 3 2 1		   
 }
